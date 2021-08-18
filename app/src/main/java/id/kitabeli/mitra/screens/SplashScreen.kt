@@ -22,8 +22,9 @@ fun Splash(navController: NavController) {
 
     LaunchedEffect(true) {
         MainScope().launch {
-            delay(3000L)
-            navController.navigate(Screens.Home.route)
+            delay(2000L)
+            navController.popBackStack()
+            navController.navigate(Screens.Login.route)
         }
     }
 

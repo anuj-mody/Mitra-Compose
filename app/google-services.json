@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "496424547771",
+    "firebase_url": "https://juali-475b6.firebaseio.com",
+    "project_id": "juali-475b6",
+    "storage_bucket": "juali-475b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496424547771:android:30865ab9ab2f0cc0",
+        "android_client_info": {
+          "package_name": "com.wajual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496424547771-0mfu56i1mhop42uc7aj8emd30fm1ftjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wajual",
+            "certificate_hash": "f400b5457040e0a652db7dfb13add39e103846c6"
+          }
+        },
+        {
+          "client_id": "496424547771-30qiomuqv66cciiuggveqj8hv2qtja84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wajual",
+            "certificate_hash": "ed914a4f172f0839033f1f63de6742bc4d53b1f8"
+          }
+        },
+        {
+          "client_id": "496424547771-ai0m9vmk4nimr8q2dj637luv19ul1jsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wajual",
+            "certificate_hash": "1c47be865b98e7a46e2c7d1c6881f8e99b061cd4"
+          }
+        },
+        {
+          "client_id": "496424547771-crqeu5d876g2u1nuh58tnufhf8rkld8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wajual",
+            "certificate_hash": "10ea1d021463230eff0c556b1c4a5e3e069cb618"
+          }
+        },
+        {
+          "client_id": "496424547771-pah381sq33rfv32qarnv1oirduhigosc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wajual",
+            "certificate_hash": "d30ee32db8ed87ed6bbe26f914d32b686e20e985"
+          }
+        },
+        {
+          "client_id": "496424547771-rhcldb7m8l8onc8a1ht2br7jp2b6d64p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wajual",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "496424547771-d26j8emda8nim2jpgm4e1cod5el0q2pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqqIIkQQTcXeKIQL9cNNlm9fbbPh8t8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496424547771-d26j8emda8nim2jpgm4e1cod5el0q2pp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "496424547771-k6t3s5t5k2i7l3r13qrmcaimdsjpv5n1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "id.kitabeli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496424547771:android:c2604c4f70c27d1547c09e",
+        "android_client_info": {
+          "package_name": "id.kitabeli.mitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496424547771-d26j8emda8nim2jpgm4e1cod5el0q2pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqqIIkQQTcXeKIQL9cNNlm9fbbPh8t8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496424547771-d26j8emda8nim2jpgm4e1cod5el0q2pp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "496424547771-k6t3s5t5k2i7l3r13qrmcaimdsjpv5n1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "id.kitabeli"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,26 +6,40 @@ import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import id.kitabeli.mitra.R
+
+val appFontFamily = FontFamily(
+    Font(R.font.gilroy_light, FontWeight.Light),
+    Font(R.font.gilroy_regular, FontWeight.Normal),
+    Font(R.font.gilroy_regular, FontWeight.Normal, FontStyle.Italic),
+    Font(R.font.gilroy_medium, FontWeight.Medium),
+    Font(R.font.gilroy_bold, FontWeight.SemiBold),
+    Font(R.font.gilroy_heavy, FontWeight.Bold)
+)
 
 private val DarkColorPalette = darkColors(
     primary = Orange,
-
-)
-
-private val LightColorPalette = lightColors(
-    primary = Orange,
-    background = Color.Green,
-    surface = Color.Green
-
-
-    /* Other default colors to override
     background = Color.White,
     surface = Color.White,
     onPrimary = Color.White,
     onSecondary = Color.Black,
     onBackground = Color.Black,
     onSurface = Color.Black,
-    */
+
+    )
+
+private val LightColorPalette = lightColors(
+    primary = Orange,
+    background = Color.White,
+    surface = Color.White,
+    onPrimary = Color.White,
+    onSecondary = Color.Black,
+    onBackground = Color.Black,
+    onSurface = Color.Black,
 )
 
 @Composable
@@ -45,5 +59,5 @@ fun NewMitraAppTheme(
         shapes = Shapes,
         content = content,
 
-    )
+        )
 }

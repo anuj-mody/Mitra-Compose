@@ -9,6 +9,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import id.kitabeli.mitra.screens.Login
 import id.kitabeli.mitra.screens.Splash
 
 @Composable
@@ -16,9 +17,13 @@ fun MitraAppNavigation() {
 
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = Screens.Splash.route) {
+    NavHost(navController = navController, startDestination = Screens.Login.route) {
         composable(route = Screens.Splash.route) {
             Splash(navController = navController)
+        }
+
+        composable(route = Screens.Login.route) {
+            Login()
         }
         composable(route = Screens.Home.route) {
             Box(
